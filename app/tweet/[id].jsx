@@ -10,6 +10,7 @@ export default function TweetScreen(){
     
     if(!tweet)
     return <Text> Tweet {id} not found</Text>
+    
     return(
         <Tweet tweet={tweet}/>
     )
